@@ -1,6 +1,6 @@
 # Singular Spectrum Analysis (SSA) on a Toy Time Series
 
-This repository demonstrates a **Singular Spectrum Analysis (SSA) an approach** for **time series decomposition**. In particular, we showcase how SSA can help separate a signal into **trend, periodic (harmonic) components, and noise** by embedding the series into a matrix, performing a matrix factorization, and reconstructing meaningful components.
+This repository demonstrates a **Singular Spectrum Analysis (SSA) approach** for **time series decomposition**. In particular, we showcase how SSA can help separate a signal into **trend, periodic (harmonic) components, and noise** by embedding the series into a matrix, performing a matrix factorization, and reconstructing meaningful components.
 
 ---
 
