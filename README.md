@@ -92,10 +92,17 @@ After reconstructing each $$\(\mathbf{X}_i\)$$ into a 1D series $$\(\tilde{F}_i\
 
 
 $$
-\(W_{ij} = \frac{\left|\sum_{t=0}^{N-1} w_t\, \tilde{F}_i(t) \,\tilde{F}_j(t)\right\}
-{\sqrt{ \left(\sum_{t=0}^{N-1} w_t\, \tilde{F}_i(t)^2\right)\, \left(\sum_{t=0}^{N-1} w_t\, \tilde{F}_j(t)^2\right)}}\
-).
-$$ 
+\(W_{ij} =
+\frac{
+\left| \sum_{t=0}^{N-1} w_t\, \tilde{F}_i(t)\,\tilde{F}_j(t) \right|
+}{
+\sqrt{
+\left( \sum_{t=0}^{N-1} w_t\, \tilde{F}_i(t)^2 \right)
+\left( \sum_{t=0}^{N-1} w_t\, \tilde{F}_j(t)^2 \right)
+}
+}.\)
+$$
+
 
 
 A value close to 1 indicates that $$\(\tilde{F}_i\)$$ and $$\(\tilde{F}_j\)$$ are almost the same pattern, while a value near 0 means they capture distinctly different behaviors.
