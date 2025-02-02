@@ -90,16 +90,14 @@ which can be Hankelized and converted into a one-dimensional component of the ti
 
 After reconstructing each $$\(\mathbf{X}_i\)$$ into a 1D series $$\(\tilde{F}_i\)$$ of length $$\(N\)$$, we define a weight vector $$\(w\)$$ to account for overlaps during reconstruction. The **W-correlation** between two reconstructed series $$\(\tilde{F}_i\)$$ and $$\(\tilde{F}_j\)$$ is given by:
 
-$$\[
-\( 
+$$
 W_{ij} = 
-\frac{\left|\sum_{t=0}^{N-1} w_t\, \tilde{F}_i(t) \,\tilde{F}_j(t)\right|}
+\frac{\left|\sum_{t=0}^{N-1} w_t \,\tilde{F}_i(t)\,\tilde{F}_j(t)\right|}
 {\sqrt{
-\left(\sum_{t=0}^{N-1} w_t\, \tilde{F}_i(t)^2\right)\,
-\left(\sum_{t=0}^{N-1} w_t\, \tilde{F}_j(t)^2\right)
+\Bigl(\sum_{t=0}^{N-1} w_t \,\tilde{F}_i(t)^2\Bigr)\,
+\Bigl(\sum_{t=0}^{N-1} w_t \,\tilde{F}_j(t)^2\Bigr)
 }}
-\). 
-\]$$
+$$
 
 A value close to 1 indicates that $$\(\tilde{F}_i\)$$ and $$\(\tilde{F}_j\)$$ are almost the same pattern, while a value near 0 means they capture distinctly different behaviors.
 
@@ -134,7 +132,6 @@ A value close to 1 indicates that $$\(\tilde{F}_i\)$$ and $$\(\tilde{F}_j\)$$ ar
 2. **Install Dependencies**  
    - Python 3.7+ (or later).  
    - Common libraries like `numpy`, `matplotlib`, and `pandas`.  
-   - An optional file `requirements.txt` may be provided for convenience.
 
 3. **Run the Notebook**  
    Open and execute the `.ipynb` file in Jupyter or VS Code. Examine each step to see how the time series is generated, decomposed, and reconstructed.
@@ -146,6 +143,7 @@ A value close to 1 indicates that $$\(\tilde{F}_i\)$$ and $$\(\tilde{F}_j\)$$ ar
 
 ---
 
-## License
+## Contact Information
 
-This project is under the [MIT License](LICENSE). You’re free to use, modify, and distribute it as needed. Pull requests or suggestions are welcome.
+- Email: Meskaramine2@gmail.com
+- LinkedIn: linkedin.com/in/amine-meskar
