@@ -90,7 +90,6 @@ which can be Hankelized and converted into a one-dimensional component of the ti
 
 After reconstructing each $$\(\mathbf{X}_i\)$$ into a 1D series $$\(\tilde{F}_i\)$$ of length $$\(N\)$$, we define a weight vector $$\(w\)$$ to account for overlaps during reconstruction. The **W-correlation** between two reconstructed series $$\(\tilde{F}_i\)$$ and $$\(\tilde{F}_j\)$$ is given by:
 
-
 $$
 \(W_{ij} =
 \frac{
@@ -102,8 +101,6 @@ $$
 }
 }.\)
 $$
-
-
 
 A value close to 1 indicates that $$\(\tilde{F}_i\)$$ and $$\(\tilde{F}_j\)$$ are almost the same pattern, while a value near 0 means they capture distinctly different behaviors.
 
